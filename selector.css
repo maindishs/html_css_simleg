@@ -1,0 +1,30 @@
+/* div{
+    background-color: red;
+    color: whitesmoke;
+    width :100px;
+    height: 100px;
+} */
+* {
+    background-color: rgb(16, 58, 34);
+}
+
+#movie_image {
+    width: 300px;
+    height: 300px;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+a:link {
+    color: black;
+}
+
+a:visited{
+    color: gray;
+}
+a:hover{
+    color : red;
+}

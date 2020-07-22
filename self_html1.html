@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./selector.css"/>
+</head>
+<body>
+    <h1>안녕하세요 실습 화면 입니다.</h1>
+   <form action = 'https://server.ai-school.com', method = 'POST'>
+    <br/>
+     <a href="https://www.naver.com">테스트</a>
+     <br/>
+     <label for ="userid">아이디 : </label>
+     <input 
+        name = "userid" 
+        placeholder = "아이디를 입력 해주세요"  
+        type ="text"/>
+     <br/>
+     <label for ='userpw'>비밀번호 : </label>
+     <input
+        name ="userpw"
+        placeholder ="비번뭐에요?"
+        type ="password"
+     />
+     <br>
+     <select name ="interest">
+        <option value ="q1">영화</option>
+        <option value ="q2">독서</option>
+        <option value = "q3">축구</option>
+     </select>
+     <br/>
+      <img id = "movie_image" src = "./movie_image.jpg" alt = "보고 싶은 영화"/>
+     <br/>
+     <textarea name="content" cols ="20" rows="10">
+        메모
+     </textarea>
+     <br/>
+     <button name ="전송" type ="submit">
+        전송하기
+     </button>
+     <input value="전송하기" type="button" name="button"/>
+   </form> 
+</body>
+</html>
